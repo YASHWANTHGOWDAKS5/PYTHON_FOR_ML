@@ -365,23 +365,28 @@
 # # use a dunder function __gt__() to convey that:
 # # order1>order2 if price of order1>price of order2
 
-class Order:
-      def __init__(self,item,price):
-            self.item=item
-            self.price=price
-            #Dunder function to perform the greater than operation
-      def __gt__(self,a):
-            return self.price>a.price
-i1=Order('Biscutes',120)
-print(i1.item)
-print(i1.price)
+# class Order:
+#       def __init__(self,item,price):
+#             self.item=item
+#             self.price=price
+#             #Dunder function to perform the greater than operation
+#       def __gt__(self,a):
+#             return self.price>a.price
+# i1=Order('Biscutes',120)
+# print(i1.item)
+# print(i1.price)
 
-i2=Order('Chai ki patha',20)
-print(i2.item)
-print(i2.price)
+# i2=Order('Chai ki patha',20)
+# print(i2.item)
+# print(i2.price)
 
-i3=Order.__gt__(i1,i2)
-print(i3)
-
+# i3=Order.__gt__(i1,i2)
+# print(i3)
+# #OP:
+# # Biscutes
+# # 120
+# # Chai ki patha
+# # 20
+# # True
 # # -----------------End of The Course OOP in Python------------------------------
 # # ----------Remember learning never ends and you can learn more advance oop in Python using open source data on internet, thankyou keep learning------------------------------
