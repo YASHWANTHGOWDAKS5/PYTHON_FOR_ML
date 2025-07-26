@@ -18,9 +18,9 @@
 # dog2 = dog()
 # dog2.bark()
 
-## -----------------------------------------------------
+# # -----------------------------------------------------
 
-#Understanding self inside a init instence or method
+# Understanding self inside a init instence or method
 
 # class Student:
 #       #The init instence in python will exicute autromatically whenever you invoke a class irrespective of methods
@@ -45,7 +45,7 @@
 # #OP:
 # #LalithRajR
 
-##--------------------------------------------------------
+# #--------------------------------------------------------
 
 # #And also we have another constructor of init that we call as default Constructor
 # class Car:
@@ -63,7 +63,7 @@
 # # OP:
 # # Class Car is called now.....
 
-## --------------------------------------------------------
+# # --------------------------------------------------------
 
 # #Class Attributes and Method attributes
 # # we have two different attributes in oop that is if a value will be same for all instences we will use it in class attribute (Global attribute) and it will be also used as the default value for certain instences attributes. 
@@ -106,7 +106,7 @@
 #       def get_marks(self):
 #             print('Marks of', self.name ,'is,',self.marks)
 
-## We create a object for a class as below
+# # We create a object for a class as below
 # s1=Student('Hasan',95)
 # s1.wellcome()
 # s1.get_marks()
@@ -115,7 +115,7 @@
 # # Wellcome student, Hasan
 # # Marks of Hasan is, 95
 
-## --------------------------------------------
+# # --------------------------------------------
 
 # #Practice Question
 # #1.Create a student class that takes name and marks of 3 subjects as arguments in constructor.
@@ -152,13 +152,13 @@
 # # mark 3 is 23
 # # Average marks of Mahadev TT is 29.666666666666668
 
-## ------------------------------------------------------
+# # ------------------------------------------------------
 
-#Static Methods
-#the methods that will not have any self parameter
-#Work on Class Level
-#We use decorator to convert a method into static method--(@staticmethod)
-#A decorator allows us to wrap another function to extend the beheviour of the wrapper function without permanently modifying it
+# Static Methods
+# the methods that will not have any self parameter
+# Work on Class Level
+# We use decorator to convert a method into static method--(@staticmethod)
+# A decorator allows us to wrap another function to extend the beheviour of the wrapper function without permanently modifying it
 
 # class Student:
 #       Name = 'UnNymous'
@@ -190,7 +190,7 @@
 # # Wellcome student, Hasan
 # # Marks of Hasan is, 95
 
-## -----------------------------------------
+# # -----------------------------------------
 
 # Pillers of OOP
 # 1.Abstractio
@@ -198,7 +198,7 @@
 # 3.Inheritence
 # 4.Polymorphism
 
-##-------------------------------------------
+# #-------------------------------------------
 
 # #1. Abstraction in OOP
 # # Hiding some working functionality from the user
@@ -223,13 +223,13 @@
 # #OP:
 # # Engine started you can move the car
 
-#----------------------------------------------------
+# ----------------------------------------------------
 
 # 2.Encapsulation in OOP
 # Wrapping Data and Functions into a single unit that is nothing but our class
 # What ever we did above is Encapsulation
 
-#---------------------------------------------------
+# ---------------------------------------------------
 
 # # Part-1 of OOP learning ends here and lets solve a Practice Question
 # #Create a Account class with 2 attributes- Account number and balance. Create methods for debit, credit and printing the balance
@@ -267,5 +267,5 @@
 # # An amount of 1800 is added to your balance 3000 successfully
 # # Your account of acc_number: 9875 as current balance of 3000 rupees
 
-##-------------------- End of Part_1 of OOP in Python-------------------------------------
-##------------ Refer the part_2 for completion of the course ------------------------------
+# #-------------------- End of Part_1 of OOP in Python-------------------------------------
+# #------------ Refer the part_2 for completion of the course ------------------------------

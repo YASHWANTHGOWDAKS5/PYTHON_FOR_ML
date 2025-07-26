@@ -103,7 +103,7 @@
 # # Car started
 # # car stoped....
 
-##-----------------------------------------------------
+# #-----------------------------------------------------
 
 # #We can use two class propertis in one 
 
@@ -125,7 +125,7 @@
 # # This is class b
 # # This is class c
 
-##------------------------------------------------
+# #------------------------------------------------
 
 # #Super method
 
@@ -151,7 +151,7 @@
 # # Started
 # # disel
 
-##------------------------------------
+# #------------------------------------
 
 # #class method
 
@@ -170,7 +170,7 @@
 # # pavan
 # # pavan
 
-##------------------------------------------------------------
+# #------------------------------------------------------------
 
 # #Using class method
 
@@ -188,14 +188,14 @@
 # # Lalith
 # # Lalith
 
-##---------------------------------------------------------
+# #---------------------------------------------------------
 
 # # different methods in OOP
 # # 1.Static method () //Decorator:@staticmethod
 # # 2.class method (cls) //Decorator:@classmethod
 # # instence method (self) //No decorator needed
 
-##---------------------------------------------------------
+# #---------------------------------------------------------
 
 # #Another decorator @property
 
@@ -240,7 +240,7 @@
 # # 89
 # # 54.0%
 
-##----------------------------------------------------------
+# #----------------------------------------------------------
 
 # #polymorphism
 # #One operator can perform different operation wrt the data that is dealing with
@@ -318,7 +318,7 @@
 # Area of circle of radius 12 is 452.15999999999997
 # the perimeter of circle of radius 12 is 75.36
 
-##------------------------------------------------------------
+# #------------------------------------------------------------
 
 # # 2.create a Employee class with attributes role, department & salary.
 # # This class also as a showDetails() method to display the details
