@@ -3,9 +3,9 @@
 # #Problem 1:
 # def length(v):
 #       return len(v)
-# v='Yashhwanth Gowda KS'
+# v='Yashhwanth'
 # l=[1,2,3,4,5,6]
-# s={'yashu','Gowda',19,'Mandya',True}
+# s={'yashu','Gowda',19,'Male',True}
 # result=length(v)
 # result1=length(l)
 # result2=length(s)
@@ -13,9 +13,9 @@
 # print(f'Length of {l} is: {result1}')
 # print(f'Length of {s} is: {result2}')
 # #OP:
-# # Length of Yashhwanth Gowda KS is: 19
+# # Length of Yashwanth is: 9
 # # Length of [1, 2, 3, 4, 5, 6] is: 6
-# # Length of {True, 19, 'Gowda', 'yashu', 'Mandya'} is: 5
+# # Length of {True, 19, 'Gowda', 'yashu', 'Male'} is: 5
 
 # #------------------------------------------------
 
